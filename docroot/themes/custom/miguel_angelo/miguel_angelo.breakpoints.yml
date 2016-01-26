@@ -1,0 +1,38 @@
+# miguel_angelo.breakpoints.yml
+
+miguel_angelo.mobile:
+  label: mobile
+  mediaQuery: '(max-width: 300px)'
+  weight: 5
+  multipliers:
+    - 1x
+miguel_angelo.smartphone:
+  label: smartphone
+  mediaQuery: '(max-width: 500px)'
+  weight: 4
+  multipliers:
+    - 1x
+miguel_angelo.tablet:
+  label: tablet
+  mediaQuery: '(max-width: 800px)'
+  weight: 3
+  multipliers:
+    - 1x
+miguel_angelo.desktop:
+  label: desktop
+  mediaQuery: '(max-width: 1200px)'
+  weight: 2
+  multipliers:
+    - 1x
+miguel_angelo.desktop-high:
+  label: desktop-high
+  mediaQuery: '(max-width: 1600px)'
+  weight: 1
+  multipliers:
+    - 1x
+miguel_angelo.high-screen:
+  label: high-screen
+  mediaQuery: '(min-width: 1600px)'
+  weight: 0
+  multipliers:
+    - 1x

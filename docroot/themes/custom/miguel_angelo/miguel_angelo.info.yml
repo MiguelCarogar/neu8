@@ -1,0 +1,15 @@
+#miguel_angelo.info.yml
+
+name: miguel_angelo
+type: theme
+description: 'This is a Drupal 8 theme.'
+core: 8.x
+base theme: classy
+libraries:
+  - miguel_angelo/global-styling
+  - miguel_angelo/leaflet
+regions:
+  navbar: 'Top Navigation Bar'
+  content: content
+  sidebar: 'Sidebar'
+  footer: 'Footer'

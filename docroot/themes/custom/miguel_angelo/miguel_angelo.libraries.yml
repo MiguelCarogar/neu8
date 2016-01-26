@@ -1,0 +1,14 @@
+#miguel_angelo.libraries.yml
+global-styling:
+  css:
+    theme:
+      css/styles.css: {}
+leaftlet:
+  css:
+    theme:
+      css/leaflet.css: {}
+  js:
+    js/leaflet.js: {}
+    js/map.js: {}
+  dependencies:
+    - core/jquery
